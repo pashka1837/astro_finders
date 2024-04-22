@@ -1,0 +1,28 @@
+.mobile_menu {
+  padding: 5% 10%;
+
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  backdrop-filter: blur(30px);
+  transition: all ease-in-out 0.3s;
+  transform: translateY(-150%);
+
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-rows: 1fr 4fr;
+}
+
+.mobile_menu.open {
+  transform: translateY(0);
+}
+
+@media screen and (min-width: 768px) {
+  .mobile_menu {
+    display: none;
+  }
+}

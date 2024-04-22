@@ -1,0 +1,27 @@
+.header {
+  height: 100dvh;
+  transition: height 0.2s linear;
+}
+
+.headline {
+  width: 80vw;
+  display: grid;
+  gap: 10%;
+  padding: 10% 15%;
+  line-height: 50px;
+  font-size: 2.3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .headline {
+    line-height: 60px;
+    font-size: 2.7rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .headline {
+    padding: 5% 10%;
+    font-size: 3rem;
+  }
+}

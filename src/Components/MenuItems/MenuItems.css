@@ -1,0 +1,33 @@
+.menuItems {
+  height: 100%;
+  display: grid;
+  gap: 20px;
+  align-content: baseline;
+}
+
+.menuLink {
+  text-decoration: none;
+  font-family: "Jersey 10", sans-serif;
+  font-size: 3.3rem;
+  color: #f3f8ff;
+}
+
+.menuLink svg {
+  width: 60px;
+  vertical-align: middle;
+}
+
+@media screen and (min-width: 768px) {
+  .menuItems {
+    height: auto;
+    display: flex;
+    gap: 50px;
+    /* align-items: center; */
+  }
+  .menuLink {
+    font-size: 2.3rem;
+  }
+  .menuLink svg {
+    width: 40px;
+  }
+}

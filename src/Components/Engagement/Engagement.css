@@ -1,0 +1,10 @@
+.engagement {
+  min-height: 100lvh;
+  padding: var(--navbar-height) 7%;
+  font-family: "Jersey 25", sans-serif;
+  gap: 100px;
+}
+
+.engagement span {
+  font-family: "Jersey 10", sans-serif;
+}
