@@ -30,8 +30,6 @@ body {
   --footer-height: 80px;
   transition: height 0.2s linear;
   background-color: #000000;
-  /* height: 100lvh; */
-  /* background: fixed url("./images/purple_ship_bg.webp") center / cover no-repeat; */
 }
 
 body:has(.mobile_menu.open) {
@@ -76,6 +74,7 @@ button:focus-visible {
 }
 
 button,
-a {
+a,
+div {
   -webkit-tap-highlight-color: transparent;
 }
