@@ -10,7 +10,7 @@ export default function Header() {
 			}}
 		>
 			<div className='headline container_blur'>
-				<h1 className='name'>ASTRO FINDERS</h1>
+				<h1 className='name'>ASTRO PIONEERS</h1>
 				<h2 className='desc'>where space exploration meets NFT ownership</h2>
 			</div>
 		</div>

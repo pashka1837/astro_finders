@@ -18,7 +18,7 @@ export default function Engagement() {
 			</div>
 			<Accordion data={accordionData} />
 			<div className='subheadline container_blur'>
-				<h3>Sign up for early access to <span>ASTRO FINDERS</span> and join the ranks of Galactic Explorers today!</h3>
+				<h3>Sign up for early access to <span>ASTRO PIONEERS</span> and join the ranks of Galactic Explorers today!</h3>
 			</div>
 		</div>
 	);

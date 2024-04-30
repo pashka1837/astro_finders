@@ -28,7 +28,7 @@ export default function Navbar() {
 					location.href = '#header';
 				}}>
 					<img src={logo} alt='logo' />
-					<p>ASTRO FINDERS</p>
+					<p>ASTRO PIONEERS</p>
 				</div>
 				<MenuItems />
 				<Burger isMenuOpen={isMenuOpen} setOpen={setOpen}>{openBurger}</Burger>

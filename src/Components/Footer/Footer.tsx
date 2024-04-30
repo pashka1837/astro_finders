@@ -10,7 +10,7 @@ export default function Footer() {
 			<div className='inner'>
 				<div style={{display: 'flex', alignItems: 'center'}}>
 					<img src={logo} alt='logo' />
-					<p> ASTRO FINDERS </p>
+					<p> ASTRO PIONEERS </p>
 				</div>
 				<p>  2024 all rights reserved</p>
 			</div>

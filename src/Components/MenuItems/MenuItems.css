@@ -12,8 +12,8 @@
   color: #f3f8ff;
 }
 
-.menuLink svg {
-  width: 60px;
+.menuLink img {
+  width: 40px;
   vertical-align: middle;
 }
 
@@ -22,12 +22,11 @@
     height: auto;
     display: flex;
     gap: 50px;
-    /* align-items: center; */
   }
   .menuLink {
     font-size: 2.3rem;
   }
-  .menuLink svg {
-    width: 40px;
+  .menuLink img {
+    width: 30px;
   }
 }
