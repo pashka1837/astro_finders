@@ -1,15 +1,10 @@
-/* eslint-disable @typescript-eslint/no-unsafe-assignment */
+import './MenuItems.css';
 
 import Item from './Item';
 import twitterLOGO from '../../assets/twitter.svg';
 import instaLOGO from '../../assets/insta.svg';
+import {instaLink, twitterLink} from '../../links';
 
-import './MenuItems.css';
-
-// Import dotenv from 'dotenv';
-// dotenv.config();
-
-console.log(process.env.REACT_APP_TWIT_URL);
 export type Link = {
 	href: string;
 	desc: string;
@@ -26,12 +21,12 @@ const links: Link[] = [
 		desc: 'Engagement',
 	},
 	{
-		href: process.env.REACT_APP_TWIT_URL!,
+		href: twitterLink,
 		desc: 'twitter logo',
 		imgSrc: twitterLOGO,
 	},
 	{
-		href: process.env.REACT_APP_INSTA_URL!,
+		href: instaLink,
 		desc: 'instagram logo',
 		imgSrc: instaLOGO,
 	},
@@ -40,8 +35,7 @@ const links: Link[] = [
 export default function MenuItems() {
 	return (
 		<div className='menuItems'>
-			{
-				links.map(link => <Item key={link.desc} {...link} />)}
+			{links.map(link => <Item key={link.desc} {...link} />)}
 		</div>
 	);
 }
