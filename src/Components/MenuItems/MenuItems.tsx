@@ -21,6 +21,10 @@ const links: Link[] = [
 		desc: 'Engagement',
 	},
 	{
+		href: '#access',
+		desc: 'Early Access',
+	},
+	{
 		href: twitterLink,
 		desc: 'twitter logo',
 		imgSrc: twitterLOGO,

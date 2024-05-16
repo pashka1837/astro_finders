@@ -1,6 +1,7 @@
 import './Engagement.css';
 import bgIMG from '../../assets/images/bg_rsz/purple_station_bg.webp';
 import Accordion from '../Accordion/Accordion';
+import MyForm from '../Form/MyForm';
 
 const accordionData = [
 	'Establish trade routes between planets, participate in the in-game economy, and earn rewards by contributing to the galactic marketplace.',
@@ -17,9 +18,10 @@ export default function Engagement() {
 				<h3>Ready to embark on your cosmic journey?</h3>
 			</div>
 			<Accordion data={accordionData} />
-			<div className='subheadline container_blur'>
+			<div id='access' className='subheadline container_blur'>
 				<h3>Sign up for early access to <span>ASTRO PIONEERS</span> and join the ranks of Galactic Explorers today!</h3>
 			</div>
+			<MyForm/>
 		</div>
 	);
 }
