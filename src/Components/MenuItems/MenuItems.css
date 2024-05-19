@@ -21,10 +21,11 @@
   .menuItems {
     height: auto;
     display: flex;
-    gap: 50px;
+    gap: 30px;
   }
   .menuLink {
-    font-size: 2.3rem;
+    /* font-size: 2.3rem; */
+    font-size: clamp(1.8rem, 2.5vw, 2.3rem);
   }
   .menuLink img {
     width: 30px;
