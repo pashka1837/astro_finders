@@ -1,9 +1,10 @@
 .container_accordion {
+  padding: 3% 0 3% 3%;
   height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 10px;
 }
 
 .container_accordion .container_blur {
@@ -36,6 +37,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  .container_accordion {
+    width: 70vw;
+    gap: 30px;
+  }
+
   .accordion_item {
     padding: 4%;
   }
@@ -51,6 +57,9 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .container_accordion {
+    width: 50vw;
+  }
   .accordion_item {
     padding: 2%;
   }

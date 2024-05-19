@@ -9,7 +9,7 @@ type AccordionProps = {
 export default function Accordion({data}: AccordionProps) {
 	const [currentOpen, setCurrent] = useState(0);
 	return (
-		<div className='container_accordion'>
+		<div className='container_accordion container_blur'>
 			{data.map((text, i) => <AccordionItem key={text} order={i} text={text}
 				currentOpen={currentOpen} setCurrent={setCurrent} />)}
 		</div>

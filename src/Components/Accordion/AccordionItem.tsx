@@ -25,7 +25,8 @@ export default function AccordionItem({text, order, currentOpen, setCurrent}: Ac
 	}
 
 	return (
-		<div className='container_blur'>
+
+		<div >
 			<div className='accordion_item'>{order === currentOpen
 				? <h3>{text}</h3>
 				: <h3>{text.slice(0, 43) + '...'}</h3>}
@@ -33,7 +34,7 @@ export default function AccordionItem({text, order, currentOpen, setCurrent}: Ac
 				{order === currentOpen
 					? arrowUp : arrowDown }
 			</button></div>
-
 		</div>
+
 	);
 }
